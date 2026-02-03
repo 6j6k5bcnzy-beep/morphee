@@ -1,6 +1,4 @@
-from pathlib import Path
-
-html_content = """<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -113,9 +111,3 @@ html_content = """<!DOCTYPE html>
 </section>
 </body>
 </html>
-"""
-
-path = Path("/mnt/data/politique_confidentialite_morphee.html")
-path.write_text(html_content, encoding="utf-8")
-
-str(path)
